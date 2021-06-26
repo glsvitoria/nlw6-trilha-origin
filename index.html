@@ -1,66 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!----- PAGE INFO ----->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OriginSix</title>
+   <head>
+      <!----- PAGE INFO ----->
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>OriginSix</title>
 
-    <!----- STYLES ----->
-    <link rel="stylesheet" href="styles/style.css" />
+      <!----- ÍCONES icomoon.io/app ----->
+      <link rel="stylesheet" href="assets/icomoon/style.css">
 
-    <!----- FONTS ----->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">   
-  </head>
-  <body>
-    <header id="header">
+      <!----- STYLES ----->
+      <link rel="stylesheet" href="styles/style.css" />
+
+      <!----- FONTS ----->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">   
+   </head>
+   <body>
+      <header id="header">
       <nav class="container">
-        <a class="logo" href="#">interact<span>playing</span>.</a>
-        <div class="menu">
-          <ul>
-            <li><a href="#home">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#sevices">Serviços</a></li>
-            <li><a href="#testimonials">Depoimentos</a></li>
-            <li><a href="#contact">Contato</a></li>
-          </ul>
-        </div>
+         <a class="logo" href="#">interact<span>playing</span>.</a>
+         <div class="menu">
+            <ul class="grid">
+               <li><a class="title" href="#home">Início</a></li>
+               <li><a class="title" href="#about">Sobre</a></li>
+               <li><a class="title" href="#sevices">Serviços</a></li>
+               <li><a class="title" href="#testimonials">Depoimentos</a></li>
+               <li><a class="title" href="#contact">Contato</a></li>
+            </ul>
+         </div>
+         <div class="toogle icon-menu"></div>
+         <div class="toogle icon-close"></div>
+   
       </nav>
-    </header>
+      </header>
 
-    <main>
-        <section class="section" id="home">
-            <div class="container grid">
-                <div class="image">
-                    <img src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGdhbWluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Pessoas jogando na lan house">
-                </div>
-                <div class="text">
-                    <h1>Melhor setup para uma melhor gameplay</h1>
-                    <p>
+      <main>
+         <section class="section" id="home">
+               <div class="container grid">
+                  <div class="image">
+                     <img src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGdhbWluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Pessoas jogando na lan house">
+                  </div>
+                  <div class="text">
+                     <h2 class="title">Melhor setup para uma melhor gameplay</h2>
+                     <p>
                         Uma lan house exclusiva em Salvador, especializado em gameplay e
                         interação entre players
-                    </p>
-                    <a class="button" href="#">Agendar um horário</a>
-                </div>
+                     </p>
+                     <a class="button" href="#">Agendar um horário</a>
+                  </div>
+               </div>
+         </section>
+
+         <div class="divider-1"></div>
+
+         <section class="section" id="about">
+            <div class="container grid">
+               <div class="image">
+                  <img src="https://images.unsplash.com/photo-1544652478-6653e09f18a2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGdhbWluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="Teclado de jovem enquanto joga no computador">
+               </div>
+               <div class="text">
+                  <h2 class="title">Sobre nós</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quas, vel aspernatur quam cupiditate esse obcaecati doloremque alias repellat repudiandae facilis. Quia quasi consequatur eos voluptas error adipisci necessitatibus ullam?</p>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, recusandae commodi. Suscipit ipsa aliquid officia sapiente voluptatibus iure, consequatur laborum soluta quo, quibusdam corrupti laboriosam debitis ab tenetur sed amet.</p>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus rerum quas magnam reprehenderit. Fugiat est rem similique ullam, blanditiis vero, deleniti id quam quia harum inventore veritatis laborum dolore. Saepe?</p>
+               </div>
             </div>
-        </section>
+         </section>
 
-        <div class="divider-1"></div>
+         <div class="divider-2"></div>
 
-        <section class="section" id="about">
-          <div class="container grid">
-            Sobre
-          </div>
-        </section>
+         <section class="section" id="services">
+            <div class="container grid">
+               <header>
+                  <h2 class="title">Serviços</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing</strong> elit. Vero vel deserunt nihil nulla est, sunt dolorem illum ea totam quis nesciunt, eos maiores? Quaerat debitis fugit ut in quos soluta!</p>
+               </header>
+               <div class="cards grid">
+                  <div class="card">
+                     <img src="assets/computador-desktop.png" alt="Ícone de computador">
+                     <h3 class="title">Alta perfomance com o setup</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tenetur laudantium cupiditate asperiores nam cum deleniti culpa labore, repellendus, velit at id obcaecati consequatur dicta et quisquam laboriosam, quasi adipisci.</p>
+                  </div>
+                  <div class="card">
+                     <img src="assets/rifle.png" alt="Ícone de rifle">
+                     <h3 class="title">Melhor gameplay</h3>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla esse repellat consequuntur sapiente autem. Odit cupiditate corporis magnam voluptatum quibusdam, assumenda dicta in beatae, nostrum eos tempora corrupti eaque quis.</p>
+                  </div>
+                  <div class="card">
+                     <img src="assets/chat.png" alt="Ícone de interação">
+                     <h3 class="title">Alta Interação</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatum esse ratione, ullam explicabo consectetur consequatur libero vitae nam iure impedit minus commodi vero tempora, voluptas quo, excepturi enim dolorem!</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
 
-        <section class="section" id="services">
-          <div class="container grid">
-            Services
-          </div>
-        </section>
-    </main>
-  </body>
+      <script src="scripts/main.js"></script>
+
+   </body>
 </html>
