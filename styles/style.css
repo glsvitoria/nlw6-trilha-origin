@@ -27,6 +27,7 @@ img {
   --hue: 159;
   --base-color: #1E2033;
   --base-color-second: #BCD100;
+  --footer-color: #151424;
   --button-color: #226291;
   --base-color-alt: hsl(var(--hue), 57%, 53%);
   --title-color: #308CF4;
@@ -34,6 +35,9 @@ img {
   --text-color-light: hsl(0, 0%, 98%);
   --body-color: #28314A;
   --body-color-second: #283c5d;
+
+  /* Fonts */
+  --title-font-size: 1.875rem
 }
 
 
@@ -150,6 +154,10 @@ main {
   color: var(--title-color);
 }
 
+
+.logo-alt span {
+  color: var(--base-color-second);
+}
 /*-------- NAVIGATION --------*/
 
 nav {
@@ -350,12 +358,11 @@ nav.show .icon-close{
   text-align: center;
 }
 
-.card img {
-  width: 30%;
+.card i {
   display: block;
-  margin: 0 auto;
-  border: 1px solid white;
-  border-radius: 100%;
+  margin-bottom: 1.5rem;
+  font-size: 5rem;
+  color: var(--title-color);
 }
 
 .card .title {
@@ -461,3 +468,85 @@ nav.show .icon-close{
 #contact ul li i {
   color: var(--title-color);
 }
+
+/*-------- FOOTER --------*/
+
+footer {
+  background: var(--footer-color);
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+footer .brand p {
+  color: var(--text-color-light);
+  margin-bottom: .75rem;
+}
+
+footer i {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+}
+
+footer .social a{
+  margin-right: 2rem;
+  transition: .3s;
+  display: inline-block;
+}
+
+footer .social a:hover {
+  transform: translateY(-0.8rem);
+}
+
+/*-------- BACK-TO-TOP --------*/
+.back-to-top {
+  background: var(--footer-color);
+  color: var(--title-color);
+
+  position: fixed;
+
+  right: 1rem;
+  bottom: 1rem;
+
+  padding: 1.2rem;
+  clip-path: circle();
+
+  font-size: 1.5rem;
+  line-height: 0;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: 0.3s;
+  transform: translateY(100%);
+}
+
+.back-to-top.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*======== RESPONSIVE ======== */
+
+/* extra large devices: 1200 > */
+@media (min-width: 1200px) {
+  
+}
+
+/* large devices: 1023 > */
+@media (min-width: 1023px) {
+  
+}
+
+/* large devices: 992 > */
+@media (min-width: 992px) {
+  :root {
+    --title-font-size: 2.2rem
+  }
+}
+
+/* medium devices: 767 > */
+/* Site foi feito para esse */
