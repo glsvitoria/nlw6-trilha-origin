@@ -34,17 +34,6 @@ img {
   --text-color-light: hsl(0, 0%, 98%);
   --body-color: #28314A;
   --body-color-second: #283c5d;
-
-  /*
-  Como é dado nas aulas:
-  --base-color: hsl(var(--hue) 36% 57%);
-  --base-color-second: hsl(var(--hue) 65% 88%);
-  --base-color-alt: hsl(var(--hue) 57% 53%);
-  --title-color: hsl(var(--hue) 41% 10%);
-  --text-color: hsl(0 0% 46%);
-  --text-color-light: hsl(0 0% 98%);
-  --body-color: hsl(0 0% 98%); 
-  */
 }
 
 
@@ -55,18 +44,18 @@ html {
 body {
   font: 400 1rem 'DM Sans' , sans-serif;
   color: var(--text-color);
-  background: var(--base-color); /* var(--body-color); */
+  background: var(--base-color);
   -webkit-font-smoothing: antialiased;
 }
 
 .title {
   font: 700 1.875rem 'Poppins', sans-serif;
-  color: white; /* var(--title-color); */
+  color: white;
   -webkit-font-smoothing: auto;
 }
 
 .button {
-  background-color: var(--button-color); /*var(--base-color);*/
+  background-color: var(--button-color);
   color: var(--text-color-light);
   height: 3.5rem;
   display: inline-flex;
@@ -78,7 +67,7 @@ body {
 }
 
 .button:hover {
-  background: rgba(165, 180, 29, 0.801); /*var(--base-color-alt);*/
+  background: rgba(165, 180, 29, 0.801); 
 }
 
 .divider-1 {
@@ -88,11 +77,6 @@ body {
   hsla(var(--hue), 36%, 57%, 1), 
   hsla(var(--hue), 65%, 88%, 0.34)
   );
-  /*background: linear-gradient(
-    270deg,
-    hsla(var(--hue), 36%, 57%, 1) 0%,
-    hsla(var(--hue), 65%, 88%, 0.34) 100%
-  );*/
 }
 
 .divider-2 {
@@ -159,11 +143,11 @@ main {
 
 .logo {
   font: 700 1.31rem 'Poppins', sans-serif;
-  color: white; /*var(--title-color)*/
+  color: white;
 }
 
 .logo span{
-  color: var(--title-color); /*var(--base-color)*/
+  color: var(--title-color);
 }
 
 /*-------- NAVIGATION --------*/
