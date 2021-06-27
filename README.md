@@ -5,7 +5,8 @@
 
 ## Um pouco do Projeto:
 
-➡   Descrição
+➡ Consiste de uma página de uma fictícia Lan House para poder divulgar a empresa, que foca não apenas nos games, mas também na interação entre os players e o site tem a funcionalidade de agendamento de horário para jogar, conexão para conversar com a empresa via whatsapp e link das minhas redes sociais ao final
+➡ Projeto feito durante a NLW6 - Together - Trilha Origin da RocketSeat que pôde me mostrar muitas coisas novas de Front-End que não conhecia e assim poder começar a utilizar para projetos e trabalhos futuros
 
 ## Conteúdos
 
@@ -32,7 +33,7 @@
 
 ### Como utilizar
 
- 1. Não tem mistério, trata-se apenas de uma página de divulgação de uma fictícia Lan House que foca na interação entre os players
+ 1. Não tem mistério, apenas uma página de divulgação e contato
  2. Na aba contato existe a funcionalidade de ser redirecionado para o whatsapp e enviar uma mensagem(mas não enviem, por favor, não sei de quem é o número)
  3. No footer tem o link das minhas redes sociais
 
