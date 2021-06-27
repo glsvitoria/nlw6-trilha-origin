@@ -10,6 +10,9 @@
       <!----- ÍCONES icomoon.io/app ----->
       <link rel="stylesheet" href="assets/icomoon/style.css">
 
+      <!----- SWIPER ----->
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
       <!----- STYLES ----->
       <link rel="stylesheet" href="styles/style.css" />
 
@@ -38,10 +41,12 @@
       </header>
 
       <main>
+
+         <!---- HOME ---->
          <section class="section" id="home">
                <div class="container grid">
                   <div class="image">
-                     <img src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGdhbWluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Pessoas jogando na lan house">
+                     <img src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Pessoas jogando na lan house">
                   </div>
                   <div class="text">
                      <h2 class="title">Melhor setup para uma melhor gameplay</h2>
@@ -56,10 +61,11 @@
 
          <div class="divider-1"></div>
 
+         <!---- ABOUT ---->
          <section class="section" id="about">
             <div class="container grid">
                <div class="image">
-                  <img src="https://images.unsplash.com/photo-1544652478-6653e09f18a2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGdhbWluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="Teclado de jovem enquanto joga no computador">
+                  <img src="https://images.unsplash.com/photo-1544652478-6653e09f18a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80" alt="Teclado de jovem enquanto joga no computador">
                </div>
                <div class="text">
                   <h2 class="title">Sobre nós</h2>
@@ -74,6 +80,7 @@
 
          <div class="divider-2"></div>
 
+         <!---- SERVICES ---->
          <section class="section" id="services">
             <div class="container grid">
                <header>
@@ -99,8 +106,96 @@
                </div>
             </div>
          </section>
+
+         <div class="divider-1"></div>
+
+         <!---- TESTMONIALS ---->
+         <section class="section" id="testimonials">
+            <div class="container">
+               <header>
+                  <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+               </header>
+
+               <div class="testimonials swiper-container">
+
+                  <div class="swiper-wrapper">
+                     <div class="testimonial swiper-slide">
+                        <blockquote>
+                           <p>
+                              <span>&ldquo;</span>
+                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ipsam repellendus laboriosam rem nam, vel ea iusto magnam laudantium
+                           </p>
+                           <cite>
+                              <img src="assets/images/user_1.jpeg" alt="Foto de Epitácio de Melo">
+                              Epitácio de Melo
+                           </cite>
+                        </blockquote>
+                     </div>
+
+                     <div class="testimonial swiper-slide">
+                        <blockquote>
+                           <p>
+                              <span>&ldquo;</span>
+                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ipsam repellendus laboriosam rem nam, vel ea iusto magnam laudantium
+                           </p>
+                           <cite>
+                              <img src="assets/images/user_2.jpg" alt="Foto de Gabriel Toledo">
+                              Gabriel Toledo
+                           </cite>
+                        </blockquote>
+                     </div>
+                     
+                     <div class="testimonial swiper-slide">
+                        <blockquote>
+                           <p>
+                              <span>&ldquo;</span>
+                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ipsam repellendus laboriosam rem nam, vel ea iusto magnam laudantium
+                           </p>
+                           <cite>
+                              <img src="assets/images/user_3.png" alt="Foto de Fernando Alvarenga">
+                              Fernando Alvarenga
+                           </cite>
+                        </blockquote>
+                     </div>
+                  </div>
+
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+         </section>
+
+         <div class="divider-2"></div>
+
+         <!---- CONTACT ---->
+         <section class="section" id="contact">
+            <div class="container grid">
+               <div class="text">
+                  <h2 class="title">Entre em contato com a gente!</h2>
+                  <p>
+                     Entre em contato com a InteractPlaying, queremos tirar suas dúvidas, ouvir suas críticas e sugestões
+                  </p>
+                  <a href="https://api.whatsapp.com/send?phone=+5511998456754&text=Oi! Gostaria de agendar um horário na lan house" target="_blank" class="button"><i class="icon-whatsapp"></i>Entrar em contato</a>
+               </div>
+
+               <div class="links">
+                  <ul class="grid">
+                     <li><i class="icon-phone1"></i>11 998455-6754</li>
+                     <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
+                     <li><i class="icon-mail"></i>contato@interactplaying.com</li>
+                  </ul>
+               </div>
+            </div>
+         </section>
       </main>
 
+      <!---- SWIPER---->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      
+      <!---- SCROLL REVEAL---->
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+      <!---- MAIN.JS ---->
       <script src="scripts/main.js"></script>
 
    </body>
