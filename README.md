@@ -26,10 +26,9 @@
 
 ### Como rodar o projeto
 
- 1. Primeiramente é necessário ter o node js instalado, com o node instalado
+ 1. Primeiramente é necessário ter o node js instalado(caso não tenha, apenas baixe a pasta zip do projeto) 
  2. Clone o projeto com `git clone https://github.com/glsvitoria/nlw6-trilha-origin`
- 3. Após clonar o projeto, no console do seu editor de código digite o seguinte comando `npm install` para instalar todas as dependencias
- 4. E em seguida use `npm start` para iniciar o projeto :D
+ 3. Após clonar o projeto, basta apenas abrir o html principal do site e utilizar as suas funcionalidades
 
 ### Como utilizar
 
