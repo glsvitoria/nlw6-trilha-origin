@@ -6,6 +6,8 @@
 ## Um pouco do Projeto:
 
 ➡ Consiste de uma página de uma fictícia Lan House para poder divulgar a empresa, que foca não apenas nos games, mas também na interação entre os players e o site tem a funcionalidade de agendamento de horário para jogar, conexão para conversar com a empresa via whatsapp e link das minhas redes sociais ao final
+
+  
 ➡ Projeto feito durante a NLW6 - Together - Trilha Origin da RocketSeat que pôde me mostrar muitas coisas novas de Front-End que não conhecia e assim poder começar a utilizar para projetos e trabalhos futuros
 
 ## Conteúdos
@@ -16,7 +18,6 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Processo](#processo)
-  - [Contruido com](#construido-com)
   - [Tecnologia utilizadas](#tecnologias-utilizadas)
   - [O que eu aprendi](#oque-eu-aprendi)
   - [Continuação do desenvolvimento](#continuacao-do-desenvolvimento)
@@ -41,7 +42,7 @@
 
 
 ### Links
-- Site hospedado: [Interactplaying.](link)
+- Site hospedado: [Interactplaying.](https://glsvitoria.github.io/nlw6-trilha-origin/)
 
 ## Processo
 
